@@ -1,15 +1,76 @@
-<html><body><style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bootstrap.css">
+    </head>
+  <body>
+    <style>
 body {
-  background-color: linen;
+  /**background-color: linen;*/
+  background: linear-gradient(45deg, #379EC1, #659224);
   text-align:center;
 }
 
 h1 {
   
   
-  color: maroon;
+  color: #000;
   margin-left: 40px;
+}
+
+ul li a {
+  color: #000;
+}
+
+ul li {
+  list-style: none;
+}
+
+nav a {
+  color: #379EC1;
 }
 </style>
 
-<h1>Liste des agents !</h1> <ul><a href=agentview/cberthier.html>cberthier</a> <br><a href=agentview/sconnor.html>sconnor</a> <br><a href=agentview/jmacclane.html>jmacclane</a> <br><a href=agentview/afoley.html>afoley</a> <br><a href=agentview/mriggs.html>mriggs</a> <br><a href=agentview/jwest.html>jwest</a> <br><a href=agentview/sholmes.html>sholmes</a> <br><a href=agentview/jrouletabille.html>jrouletabille</a> <br></ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://vigorous-galileo-45928d.netlify.app/">
+      <img alt="Qries" src="logo.png"
+      width=150" height="70">
+   </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Accueil
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Liste Agents</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Matériel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<h1>Liste des agents !</h1> 
+<ul>
+  <li><a href=agentview/cberthier.html>cberthier</a></li> <br>
+  <li><a href=agentview/sconnor.html>sconnor</a></li> <br>
+  <li><a href=agentview/jmacclane.html>jmacclane</a></li> <br>
+  <li><a href=agentview/afoley.html>afoley</a></li> <br>
+  <li><a href=agentview/mriggs.html>mriggs</a></li> <br>
+  <li><a href=agentview/jwest.html>jwest</a></li> <br>
+  <li><a href=agentview/sholmes.html>sholmes</a></li> <br>
+  <li><a href=agentview/jrouletabille.html>jrouletabille</a></li> <br>
+</ul>
